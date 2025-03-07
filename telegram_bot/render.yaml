@@ -1,0 +1,17 @@
+services:
+  - type: web
+      name: telegram-bot
+          env: node
+              buildCommand: "npm install"
+                  startCommand: "npm start"
+                      envVars:
+                            - key: BOT_TOKEN
+                                    value: YOUR_TELEGRAM_BOT_TOKEN
+                                          - key: INFURA_PROJECT_ID
+                                                  value: YOUR_INFURA_PROJECT_ID
+                                                        - key: ARBITRUM_API_KEY
+                                                                value: YOUR_ARBITRUM_API_KEY
+                                                                      - key: SOLANA_API_KEY
+                                                                              value: YOUR_SOLANA_API_KEY
+                                                                                    - key: COINMARKETCAP_API_KEY
+                                                                                            value: YOUR_COINMARKETCAP_API_KEY

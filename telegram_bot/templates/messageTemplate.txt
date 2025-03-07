@@ -1,0 +1,6 @@
+🔊🔊🔊   New Buy $RNC:
+
+Spent : {amount} {token} in ${usd_value:.2f} USD
+Got : {amount / rate} $RNC
+Rate : {rate} $ RNC
+Explorer link: [Click here]({explorer_link})
